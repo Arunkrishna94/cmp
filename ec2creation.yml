@@ -1,5 +1,5 @@
 - hosts: localhost
-  remote_user: ec2-user
+  remote_user: ansadmin
   become: yes
   tasks:
     - name: create ec2 instance
